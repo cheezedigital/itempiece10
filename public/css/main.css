@@ -1,0 +1,31 @@
+#mother {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+  display: inline-block;
+  color: #000;
+}
+#fucker {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+  display: inline-block;
+  color: #000;
+}
+#what {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+  display: inline-block;
+  color: #000;
+}
+.container {
+  padding: 100px;
+  text-align: center;
+}
