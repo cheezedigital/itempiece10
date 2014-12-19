@@ -10,6 +10,13 @@
   <link href='/css/main.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
+  <% if flash[:notice] %>
+      <% flash[:notice] %>
+  <% end %>
+
+  <% if flash[:error] %>
+    <% flash[:error] %>
+  <% end %>
   <%= yield %>
   <script type="text/javascript" src="jquery.js"></script>
   <script type='text/javascript' src="js/application.js"></script>
