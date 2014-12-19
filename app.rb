@@ -7,8 +7,8 @@ require 'sinatra/simple-authentication'
 #rack flash is how we use flash message
 require 'rack-flash'
 #we need some models, plus the envirnoment files to connect to database
-require_relative './models/user'
-require_relative './config/environments'
+require './models/user'
+require './config/environments'
 
 #setting the configuration options on the authentication gem
 Sinatra::SimpleAuthentication.configure do |c|

@@ -1,0 +1,5 @@
+development:
+  adapter: postgresql
+  host: localhost
+  database: sinatra_auth
+#looks like the rails parking lot structure.
