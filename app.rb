@@ -31,3 +31,11 @@ get '/' do
   login_required
   erb :index
 end
+
+get '/signup' do
+  erb :signup
+end
+
+get '/login' do
+  erb :login
+end
